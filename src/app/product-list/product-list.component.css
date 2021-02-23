@@ -1,0 +1,21 @@
+img {
+  width: 150px;
+  padding: 5px;
+}
+p {
+  font-size: 13px;
+}
+div {
+  width: 160px;
+  height: 460px;
+  display: inline-table;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
