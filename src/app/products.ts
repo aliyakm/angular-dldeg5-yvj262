@@ -109,12 +109,12 @@ export const products = [
   },
   {
     id: 13,
-    name: "Stencil Letters",
-    price: 19.99,
+    name: "Inch Black Blank Canvas",
+    price: 24.99,
     rating: "★★★",
-    imagePath: "",
-    description: "",
-    source: ""
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/712NA8eZCKL._AC_SL1495_.jpg",
+    description: "Arteza 9x12 Inch Black Blank Canvas Panel Boards, Bulk Pack of 14, Primed, 100% Cotton, Art Supplies for Acrylic Painting, Oil Paint & Wet Art Media, Canvases for Artist, Hobby Painters & Beginners",
+    source: "https://www.amazon.com/Arteza-Painting-Acid-Free-Acrylic-Tempera/dp/B0821C2GS2/ref=sr_1_57?_encoding=UTF8&c=ts&dchild=1&keywords=Artists+Boards+%26+Canvas&qid=1614583295&s=arts-crafts&sr=1-57&ts_id=12896211"
   },
   {
     id: 14,
@@ -136,12 +136,12 @@ export const products = [
   },
   {
     id: 16,
-    name: "Stencil Letters",
-    price: 19.99,
+    name: "Birch Wood Paint Pouring Panel Boards",
+    price: 24.96,
     rating: "★★★",
-    imagePath: "",
-    description: "",
-    source: ""
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/81j7jt2EW0L._AC_SL1500_.jpg",
+    description: "U.S. Art Supply 5' x 5' Birch Wood Paint Pouring Panel Boards, Studio 3/4' Deep Cradle (Pack of 5) - Artist Wooden Wall Canvases - Painting Mixed-Media Craft, Acrylic, Oil, Watercolor, Encaustic",
+    source: "https://www.amazon.com/Art-Supply-Pouring-Boards-Studio/dp/B07GH7JM28/ref=sr_1_70?_encoding=UTF8&c=ts&dchild=1&keywords=Artists+Boards+%26+Canvas&qid=1614583462&s=arts-crafts&sr=1-70&ts_id=12896211"
   },
   {
     id: 17,
