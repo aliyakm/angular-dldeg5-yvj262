@@ -1,20 +1,29 @@
 <h2>Products</h2>
-<div *ngFor="let product of products">
-  <h3>
-    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
-      {{ product.name }}
-    </a>
-  </h3>
+<div class="categories">
+	<ul>
+		<li (click)="showItems('Art Drawing Supplies')">Art Drawing Supplies</li>
+		<li (click)="showItems('Artists Painting Supplies')">Artists Painting Supplies</li>
+		<li (click)="showItems('Artists Boards & Canvas')">Artists Boards & Canvas</li>
+		<li (click)="showItems('Art Paper')">Art Paper</li>
+		<li (click)="showItems('Arts & Crafts Easels')">Arts & Crafts Easels</li>
+	</ul>
+</div>
+<div *ngFor="let product of products" class="productslist">
+	<h3>
+		<a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+			{{ product.name }}
+		</a>
+	</h3>
 
-  <img src={{product.imagePath}} />
+	<img src={{product.imagePath}} />
 
-  <p *ngIf="product.description">
-    Description: {{ product.description }}
-  </p>
+	<p *ngIf="product.description">
+		Description: {{ product.description }}
+	</p>
 
 
-  <app-product-alerts [product]="product" (notify)="onNotify()">
-  </app-product-alerts>
+	<app-product-alerts [product]="product" (notify)="onNotify()">
+	</app-product-alerts>
 </div>
 
 <!-- 

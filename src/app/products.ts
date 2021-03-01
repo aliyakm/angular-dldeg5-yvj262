@@ -32,7 +32,7 @@ export const products = [
   {
     id: 4,
     name: "Art Pencil Set",
-    category: "v",
+    category: "Art Drawing Supplies",
     price: 9.56,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/910UmbxQvsL._AC_SL1500_.jpg",

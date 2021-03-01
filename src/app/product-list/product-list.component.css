@@ -5,7 +5,19 @@ img {
 p {
   font-size: 13px;
 }
-div {
+.categories li {
+  display: inline-block;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.categories li:hover {
+  color: dodgerblue;
+}
+.categories ul {
+  text-align: center;
+}
+
+.productslist {
   width: 160px;
   height: 460px;
   display: inline-table;

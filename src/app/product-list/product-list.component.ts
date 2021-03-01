@@ -16,6 +16,19 @@ export class ProductListComponent {
   onNotify() {
     window.alert("You will be notified when the product goes on sale");
   }
+  showItems(s : string){
+    window.alert("Hello " + s);
+    let arr = [];
+    for(let product of products){
+      if(product.category == s){
+        console.log("yes");
+        arr.push(product);
+      }
+    }
+    console.log(arr);
+    return arr;
+    // console.log(s);
+  }
 }
 
 /*
