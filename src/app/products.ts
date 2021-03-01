@@ -2,6 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Acrylic Paint Set",
+    category: "Artists Painting Supplies",
     price: 29.99,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81xPf0O1wuL._AC_SX425_.jpg",
@@ -11,6 +12,7 @@ export const products = [
   {
     id: 2,
     name: "Professional Art Set",
+    category: "Art Drawing Supplies",
     price: 38.99,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/815wUlkLAYL._AC_SL1500_.jpg",
@@ -20,6 +22,7 @@ export const products = [
   {
     id: 3,
     name: "Sketch Pad",
+    category: "Art Paper",
     price: 13.34,
     rating: "★★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71%2BQK5pJQmL._AC_SL1200_.jpg",
@@ -29,6 +32,7 @@ export const products = [
   {
     id: 4,
     name: "Art Pencil Set",
+    category: "v",
     price: 9.56,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/910UmbxQvsL._AC_SL1500_.jpg",
@@ -38,6 +42,7 @@ export const products = [
   {
     id: 5,
     name: "Artist Paint Brush Set",
+    category: "Artists Painting Supplies",
     price: 9.97,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/815M6utnCVL._AC_SL1500_.jpg",
@@ -47,6 +52,7 @@ export const products = [
   {
     id: 6,
     name: "Artist Easel Stand",
+    category: "Arts & Crafts Easels",
     price: 22.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71UcPiIKvWL._AC_SL1500_.jpg",
@@ -56,6 +62,7 @@ export const products = [
   {
     id: 7,
     name: "Mix Paper Pad",
+    category: "Art Paper",
     price: 14.65,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/91nwmdP1rZL._AC_SL1500_.jpg",
@@ -65,6 +72,7 @@ export const products = [
   {
     id: 8,
     name: "Pastel Pad",
+    category: "Art Paper",
     price: 7.07,
     rating: "★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71djOYVJSvL._AC_SL1200_.jpg",
@@ -74,6 +82,7 @@ export const products = [
   {
     id: 9,
     name: "Ink Pen Set",
+    category: "Art Drawing Supplies",
     price: 15.70,
     rating: "★★★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81wZWfoCl-L._AC_SL1500_.jpg",
@@ -83,6 +92,7 @@ export const products = [
   {
     id: 10,
     name: "Stencil Letters",
+    category: "Art Drawing Supplies",
     price: 19.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71uqVIuO0uL._AC_SL1500_.jpg",
@@ -92,6 +102,7 @@ export const products = [
   {
     id: 11,
     name: "Colore Oil Paint Set",
+    category: "Artists Painting Supplies",
     price: 24.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81c0tfDETDL._AC_SL1500_.jpg",
@@ -101,6 +112,7 @@ export const products = [
   {
     id: 12,
     name: "Inch Stretched Canvas",
+    category: "Artists Boards & Canvas",
     price: 18.50,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/41mjxaGsvEL._AC_.jpg",
@@ -110,6 +122,7 @@ export const products = [
   {
     id: 13,
     name: "Inch Black Blank Canvas",
+    category: "Artists Boards & Canvas",
     price: 24.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/712NA8eZCKL._AC_SL1495_.jpg",
@@ -119,6 +132,7 @@ export const products = [
   {
     id: 14,
     name: "Tall Display Easel",
+    category: "Arts & Crafts Easels",
     price: 15.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/61UiW4ja4NL._AC_SL1000_.jpg",
@@ -128,6 +142,7 @@ export const products = [
   {
     id: 15,
     name: "Wood Easels Set",
+    category: "Arts & Crafts Easels",
     price: 29.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71r%2BOdBuz4L._AC_SL1500_.jpg",
@@ -137,6 +152,7 @@ export const products = [
   {
     id: 16,
     name: "Birch Wood Paint Pouring Panel Boards",
+    category: "Artists Boards & Canvas",
     price: 24.96,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81j7jt2EW0L._AC_SL1500_.jpg",
@@ -146,6 +162,7 @@ export const products = [
   {
     id: 17,
     name: "Marker Pads Art Sketchbook",
+    category: "Art Paper",
     price: 16.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/711L4r%2BoZaL._AC_SL1500_.jpg",
@@ -155,6 +172,7 @@ export const products = [
   {
     id: 18,
     name: "Round Pre-Stretched Canvas",
+    category: "Artists Boards & Canvas",
     price: 16.99,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81jNAnrfaGL._AC_SL1500_.jpg",
@@ -164,6 +182,7 @@ export const products = [
   {
     id: 19,
     name: "Palette Knife Set",
+    category: "Artists Painting Supplies",
     price: 8.96,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/81z60UL%2BeWL._AC_SL1500_.jpg",
@@ -173,6 +192,7 @@ export const products = [
   {
     id: 20,
     name: "Wood Table Sketchbox Easel",
+    category: "Arts & Crafts Easels",
     price: 34.96,
     rating: "★★★",
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/913o4Pvhr2L._AC_SL1500_.jpg",
