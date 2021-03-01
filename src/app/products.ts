@@ -91,21 +91,21 @@ export const products = [
   },
   {
     id: 11,
-    name: "Stencil Letters",
-    price: 19.99,
+    name: "Arteza Professional Watercolor Pencils",
+    price: 38.84,
     rating: "★★★",
-    imagePath: "",
-    description: "",
-    source: ""
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/81Vm%2Bz0vjRL._AC_SL1500_.jpg",
+    description: "Arteza Professional Watercolor Pencils, Set of 72, Multi Colored Art Drawing Pencils in Bright Assorted Shades, Art Supplies for Coloring, Blending and Layering, Watercolor Techniques",
+    source: "https://www.amazon.com/Professional-Watercolor-Assorted-Blending-Beginners/dp/B075KXMHQR/ref=sr_1_20?_encoding=UTF8&c=ts&dchild=1&keywords=Art+Drawing+Supplies&qid=1614582904&s=arts-crafts&sr=1-20&ts_id=12896641"
   },
   {
     id: 12,
-    name: "Stencil Letters",
-    price: 19.99,
+    name: "Inch Stretched Canvas",
+    price: 18.50,
     rating: "★★★",
-    imagePath: "",
-    description: "",
-    source: ""
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/41mjxaGsvEL._AC_.jpg",
+    description: "8 x 10 Inch Stretched Canvas Value Pack of 10",
+    source: "https://www.amazon.com/Inch-Stretched-Canvas-Value-Pack/dp/B01N9CWFH8/ref=sr_1_1_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Artists+Boards+%26+Canvas&qid=1614583035&s=arts-crafts&sr=1-1-spons&ts_id=12896211&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUjdSSjk0RDFFTVhIJmVuY3J5cHRlZElkPUEwNzczMjAySVdIWjNUSDZJRllMJmVuY3J5cHRlZEFkSWQ9QTA3NTY4MjgzQzIwREwzQU8xR1hSJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
   },
   {
     id: 13,
