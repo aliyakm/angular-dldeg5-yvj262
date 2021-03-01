@@ -88,6 +88,96 @@ export const products = [
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/71uqVIuO0uL._AC_SL1500_.jpg",
     description: "30 Pieces 4 Inch Scrabble Style Tile Stencil Letters with 50 Pieces Unfinished Square Wood 4 Inch for or Home Decor & DIY Projects, Family Names Painting, Writing, Tile Wall Decor Art, Photo Props",
     source: "https://www.amazon.com/Scrabble-Stencil-Unfinished-Projects-Painting/dp/B089R6TYSH/ref=sr_1_3_sspa?dchild=1&qid=1614075145&rnid=12896641&s=arts-crafts-intl-ship&sr=1-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFHTU5SWkc4MVlRQjUmZW5jcnlwdGVkSWQ9QTA5NzgzNDY2NFJJVElRVUFEU0QmZW5jcnlwdGVkQWRJZD1BMDc2MDU5NjMzNjc3VFc5WENIT0kmd2lkZ2V0TmFtZT1zcF9hdGZfYnJvd3NlJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+  },
+  {
+    id: 11,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 12,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 13,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 14,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 15,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 16,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 17,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 18,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 19,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
+  },
+  {
+    id: 20,
+    name: "Stencil Letters",
+    price: 19.99,
+    rating: "★★★",
+    imagePath: "",
+    description: "",
+    source: ""
   }
 ];
 
