@@ -20,6 +20,9 @@ export class ProductListComponent {
     let maindiv = document.getElementById("mainlist");
     document.getElementById("mainlist").innerHTML = "";
     let mainlist = document.createElement('div');
+    let h3 = document.createElement('h3')
+    h3.appendChild(document.createTextNode(s));
+    maindiv.appendChild(h3);
 
     // window.alert("Hello " + s);
     var arr = [];
