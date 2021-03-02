@@ -12,7 +12,9 @@
 .categories ul {
   text-align: center;
 }
-
+/* #mainlist {
+  margin: auto;
+} */
 .productslist {
   width: 160px;
   height: 460px;
@@ -20,8 +22,10 @@
   padding: 10px;
   border-bottom: 1px solid silver;
 }
-
-
+.mainbody{
+  margin-left: 40%;
+  width: 80%;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

@@ -21,6 +21,7 @@ export class ProductListComponent {
     document.getElementById("mainlist").innerHTML = "";
     let mainlist = document.createElement('div');
     let h3 = document.createElement('h3')
+    h3.style.textAlign = 'center';
     h3.appendChild(document.createTextNode(s));
     maindiv.appendChild(h3);
 
