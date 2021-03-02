@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, enableProdMode } from "@angular/core";
 
 import { products } from "../products";
 
@@ -19,9 +19,9 @@ export class ProductListComponent {
   showItems(s: string) {
     let maindiv = document.getElementById("mainlist");
     document.getElementById("mainlist").innerHTML = "";
-    let mainlist = document.createElement('div');
-    let h3 = document.createElement('h3')
-    h3.style.textAlign = 'center';
+    let mainlist = document.createElement("div");
+    let h3 = document.createElement("h3");
+    h3.style.textAlign = "center";
     h3.appendChild(document.createTextNode(s));
     maindiv.appendChild(h3);
 
@@ -34,7 +34,7 @@ export class ProductListComponent {
       }
     }
     for (let item of arr) {
-      let itemdiv = document.createElement('div');
+      let itemdiv = document.createElement("div");
       let itemname = document.createElement("h3");
       let a = document.createElement("a");
       let img = document.createElement("img");
@@ -42,18 +42,20 @@ export class ProductListComponent {
       // let link = document.createElement('link');
       // link.rel = 'stylesheet';
       // link.href = 'product-list.component.css';
-
-      a.title = "details";
+      a.title = item.name + " details";
+      a.href = 'products/'+item.id;
+      console.log(a.href);
+      // a.href = "['/products', item.id]";
       // a.router.navigate(['/products',item.id]);
       img.src = item.imagePath;
       img.style.width = "150px";
       img.style.padding = "5px";
-      p.style.fontSize = '13px';
-      itemdiv.style.width = '160px';
-      itemdiv.style.height = '535px';
-      itemdiv.style.display = 'inline-table';
-      itemdiv.style.padding = '30px';
-      itemdiv.style.borderBottom = '1px solid silver';
+      p.style.fontSize = "13px";
+      itemdiv.style.width = "160px";
+      itemdiv.style.height = "535px";
+      itemdiv.style.display = "inline-table";
+      itemdiv.style.padding = "30px";
+      itemdiv.style.borderBottom = "1px solid silver";
 
       a.appendChild(document.createTextNode(item.name));
       itemname.appendChild(a);
@@ -64,7 +66,6 @@ export class ProductListComponent {
       mainlist.appendChild(itemdiv);
     }
     maindiv.appendChild(mainlist);
-    console.log(arr);
   }
 }
 

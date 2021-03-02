@@ -13,7 +13,7 @@
 <div id="mainlist"></div>
 </div>
 
-<!-- <div *ngFor="let product of products" class="productslist">
+<div *ngFor="let product of products" class="productslist">
   <h3>
     <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
       {{ product.name }}
@@ -26,13 +26,9 @@
     Description: {{ product.description }}
   </p>
 
-  <button (click)="share()">
-    Share
-  </button>
-
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
-</div> -->
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

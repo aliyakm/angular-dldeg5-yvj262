@@ -1,4 +1,5 @@
 <h2>Product Details</h2>
+<p>{{ product.name }}</p>
 
 <div *ngIf="product" class="item">
   <h3>{{ product.name }}</h3>
@@ -27,7 +28,6 @@
   [include]="['telegram','whatsapp']"
   [show]="1"
   [size]="1"
-  [url]="'{product.source}'"
   [autoSetMeta]="false"
   ></share-buttons>
 </div>
