@@ -18,6 +18,7 @@ export class ProductListComponent {
   }
   showItems(s: string) {
     let maindiv = document.getElementById("mainlist");
+    document.getElementById("mainlist").innerHTML = "";
     let mainlist = document.createElement('div');
 
     // window.alert("Hello " + s);
