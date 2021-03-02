@@ -13,7 +13,7 @@
 <div id="mainlist"></div>
 </div>
 
-<div *ngFor="let product of products" class="productslist">
+<!-- <div *ngFor="let product of products" class="productslist" id="prlist">
   <h3>
     <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
       {{ product.name }}
@@ -28,7 +28,7 @@
 
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
-</div>
+</div> -->
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

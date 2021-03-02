@@ -43,7 +43,7 @@ export class ProductListComponent {
       // link.rel = 'stylesheet';
       // link.href = 'product-list.component.css';
       a.title = item.name + " details";
-      a.href = 'products/'+item.id;
+      a.href = "products/" + item.id;
       console.log(a.href);
       // a.href = "['/products', item.id]";
       // a.router.navigate(['/products',item.id]);
