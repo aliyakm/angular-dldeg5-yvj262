@@ -198,6 +198,56 @@ export const products = [
     imagePath: "https://images-na.ssl-images-amazon.com/images/I/913o4Pvhr2L._AC_SL1500_.jpg",
     description: "U.S. Art Supply Antigua Adjustable Wood Table Sketchbox Easel, Premium Beechwood - Portable Wooden Artist Desktop Storage Case - Store Art Paint, Markers, Sketch Pad - Box for Drawing, Painting",
     source: "https://www.amazon.com/Art-Supply-Adjustable-Sketchbox-Beechwood/dp/B01MSDOATL/ref=sr_1_14_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Arts+%26+Crafts+Easels&qid=1614584159&s=arts-crafts&sr=1-14-spons&ts_id=12897071&psc=1&smid=A23ADOZFIJNPFB&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNkpINkY5S0xHQkg3JmVuY3J5cHRlZElkPUEwNDAwNDE2V1VZM1lGREdMVUVUJmVuY3J5cHRlZEFkSWQ9QTAyODcyMjEzUVdUSjFRT1VaRVcmd2lkZ2V0TmFtZT1zcF9tdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+  },
+  {
+    id: 21,
+    name: "Drawing Art Pencils Set",
+    category: "Art Drawing Supplies",
+    price: 12.99,
+    rating: "★★★",
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/81h1rPOoo2L._AC_SL1500_.jpg",
+    description: "Castle Art Supplies 12 piece Drawing Art Pencils Set for Adults Kids and Artists | Graphite Sketch Pencils with BONUS Tin Case | Perfect Starter Sketching Shading Pencils or Top Up Set Art Supplies",
+    source: "https://www.amazon.com/Castle-Art-Supplies-Graphite-Sketching/dp/B07FSLBGLS/ref=sr_1_21?_encoding=UTF8&c=ts&dchild=1&keywords=Art+Drawing+Supplies&qid=1614668578&s=arts-crafts&sr=1-21&ts_id=12896641"
+  },
+  {
+    id: 22,
+    name: "Artist Painting Palette",
+    category: "Artists Painting Supplies",
+    price: 8.96,
+    rating: "★★★",
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/91xBlOwwSwL._AC_SL1500_.jpg",
+    description: "U.S. Art Supply 12' x 16' Extra Large Wooden Oval-Shaped Artist Painting Palette with Thumb Hole - Wood Paint Color Mixing Tray - Easy Clean, Mix Acrylic, Oil, Watercolor - Adults, Kids, Art Students",
+    source: "https://www.amazon.com/U-S-Art-Supply-Oval-Shaped-Painting/dp/B08PW591ZT/ref=sr_1_30_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Artists+Painting+Supplies&qid=1614669085&s=arts-crafts&sr=1-30-spons&ts_id=12897411&psc=1&smid=A23ADOZFIJNPFB&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE2VVBGTEpSMklWRFomZW5jcnlwdGVkSWQ9QTAxMDg3OTkyVkhGSERIVjBYMEpNJmVuY3J5cHRlZEFkSWQ9QTAxMTQwODgxTUVZNTRUUEdMNDY3JndpZGdldE5hbWU9c3BfYnRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+  },
+  {
+    id: 23,
+    name: "Round Shaped Canvas",
+    category: "Artists Boards & Canvas",
+    price: 14.99,
+    rating: "★★★",
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/81OIpSz-1-L._AC_SL1500_.jpg",
+    description: "Ruisita 4 Pack Round Shaped Canvas Stretched Artist Canvas Painting Canvas Panel Boards Cotton Art Canvas with 10 Pieces Paint Brushes and 1 Piece Palette for Watercolor",
+    source: "https://www.amazon.com/Ruisita-Stretched-Painting-Brushes-Watercolor/dp/B08HRR49QG/ref=sr_1_97_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Artists+Boards+%26+Canvas&qid=1614669253&s=arts-crafts&sr=1-97-spons&ts_id=12896211&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNDNHQ0lCNE04Rlo1JmVuY3J5cHRlZElkPUEwNjU5NDUzM0UwSkFKQ1BOQjVQRiZlbmNyeXB0ZWRBZElkPUEwNjY4NTQ5Mlo2MFIzSkNOUldEMiZ3aWRnZXROYW1lPXNwX2F0Zl9uZXh0JmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+  },
+  {
+    id: 24,
+    name: "Black Heavyweight Paper",
+    category: "Art Paper",
+    price: 14.96,
+    rating: "★★★",
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/91qHo5aXHGL._AC_SL1500_.jpg",
+    description: "US Art Supply 9 in. x 12 in. Premium Black Heavyweight Paper Spiral Bound Sketch Pad, 140gsm, 64 Pound, 30 Sheets (Pack of 2 Pads)",
+    source: "https://www.amazon.com/US-Art-Supply-Premium-Heavyweight/dp/B01BLRZZLO/ref=sr_1_52?_encoding=UTF8&c=ts&dchild=1&keywords=Art+Paper&qid=1614669331&s=arts-crafts&sr=1-52&ts_id=2748212011"
+  },
+  {
+    id: 25,
+    name: "Box French Artist Easel",
+    category: "Arts & Crafts Easels",
+    price: 75.59,
+    rating: "★★★",
+    imagePath: "https://images-na.ssl-images-amazon.com/images/I/61BQJd1VdZL._AC_SL1000_.jpg",
+    description: "Creative Mark Cezanne Half Box French Artist Easel, with Sketch Box Drawer, Canvas Carrying Clips, Brass Plated Hardware Perfect for Plein Air Painting Drawing -Oiled Stained Elm Wood",
+    source: "https://www.amazon.com/Creative-Mark-Carrying-Hardware-Painting/dp/B0049V162M/ref=sr_1_13_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Arts+%26+Crafts+Easels&qid=1614669410&s=arts-crafts&sr=1-13-spons&ts_id=12897071&psc=1&smid=AZS5DWT1I69ME&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOEdPRkc1MjE3S1FYJmVuY3J5cHRlZElkPUEwOTQ4NzgyMllOUU9WVlVINjI1WSZlbmNyeXB0ZWRBZElkPUEwNzk2OTU2MzJRSlpEUDZFNFYyQiZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
   }
 ];
 
