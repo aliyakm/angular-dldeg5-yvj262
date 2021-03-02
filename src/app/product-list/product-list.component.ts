@@ -44,6 +44,7 @@ export class ProductListComponent {
       // link.href = 'product-list.component.css';
 
       a.title = "details";
+      // a.router.navigate(['/products',item.id]);
       img.src = item.imagePath;
       img.style.width = "150px";
       img.style.padding = "5px";
