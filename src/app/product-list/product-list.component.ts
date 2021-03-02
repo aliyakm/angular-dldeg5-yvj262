@@ -16,18 +16,37 @@ export class ProductListComponent {
   onNotify() {
     window.alert("You will be notified when the product goes on sale");
   }
-  showItems(s : string){
-    window.alert("Hello " + s);
-    let arr = [];
-    for(let product of products){
-      if(product.category == s){
-        console.log("yes");
+  showItems(s: string) {
+    let mainlist = document.getElementById("mainlist");
+
+    // window.alert("Hello " + s);
+    var arr = [];
+    for (let product of products) {
+      if (product.category == s) {
+        // console.log("yes");
         arr.push(product);
       }
     }
+    for (let item of arr) {
+      let itemname = document.createElement("h3");
+      let a = document.createElement("a");
+      let img = document.createElement('img');
+      let p = document.createElement('p');
+      // let link = document.createElement('link');
+      // link.rel = 'stylesheet';
+      // link.href = 'product-list.component.css';
+
+      a.title = 'details';
+      img.src = item.imagePath;
+      img.style.width = '150px'; 
+      img.style.padding = '5px';
+      
+      a.appendChild(document.createTextNode(item.name));
+      itemname.appendChild(a);
+      mainlist.appendChild(itemname);
+      mainlist.appendChild(img);
+    }
     console.log(arr);
-    return arr;
-    // console.log(s);
   }
 }
 

@@ -8,23 +8,29 @@
 		<li (click)="showItems('Arts & Crafts Easels')">Arts & Crafts Easels</li>
 	</ul>
 </div>
-<div *ngFor="let product of products" class="productslist">
-	<h3>
-		<a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
-			{{ product.name }}
-		</a>
-	</h3>
 
-	<img src={{product.imagePath}} />
+<div id="mainlist"></div>
 
-	<p *ngIf="product.description">
-		Description: {{ product.description }}
-	</p>
+<!-- <div *ngFor="let product of products" class="productslist">
+  <h3>
+    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
 
+  <img src={{product.imagePath}} />
 
-	<app-product-alerts [product]="product" (notify)="onNotify()">
-	</app-product-alerts>
-</div>
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+
+  <button (click)="share()">
+    Share
+  </button>
+
+  <app-product-alerts [product]="product" (notify)="onNotify()">
+  </app-product-alerts>
+</div> -->
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
