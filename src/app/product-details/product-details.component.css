@@ -23,3 +23,15 @@
 .rating p {
   color: darkorange;
 }
+
+.like {
+  display: inline-table;
+}
+.like img {
+  width: 40px;
+}
+.like p {
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+}

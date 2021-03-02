@@ -39,16 +39,22 @@ export class ProductListComponent {
       let a = document.createElement("a");
       let img = document.createElement("img");
       let p = document.createElement("p");
-      let heart = document.createElement("h4");
+      let heart = document.createElement("img");
+      let heartscore = document.createElement('h4');
+      let heartdiv = document.createElement('div');
       // let link = document.createElement('link');
       // link.rel = 'stylesheet';
       // link.href = 'product-list.component.css';
       a.title = item.name + " details";
       a.href = "products/" + item.id;
       // console.log(a.href);
-      heart.appendChild(document.createTextNode("♡ "+item.like));
+      heart.src = "https://www.flaticon.com/svg/vstatic/svg/833/833472.svg?token=exp=1614701085~hmac=d0ed6ed10c6a41300c0bbe0cdba4cb28";
+      heart.style.width = "15px";
+      heartscore.style.padding = "0px 5px 0px 5px"; 
+      heartscore.appendChild(document.createTextNode(item.like));
       // a.href = "['/products', item.id]";
       // a.router.navigate(['/products',item.id]);
+      heartdiv.style.display = "flex";
       img.src = item.imagePath;
       img.style.width = "150px";
       img.style.padding = "5px";
@@ -65,7 +71,9 @@ export class ProductListComponent {
       itemdiv.appendChild(img);
       p.appendChild(document.createTextNode(item.description));
       itemdiv.appendChild(p);
-      itemdiv.appendChild(heart);
+      heartdiv.appendChild(heart);
+      heartdiv.appendChild(heartscore);
+      itemdiv.appendChild(heartdiv);
       mainlist.appendChild(itemdiv);
     }
     maindiv.appendChild(mainlist);
