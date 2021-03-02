@@ -55,6 +55,7 @@ export class ProductListComponent {
       // a.href = "['/products', item.id]";
       // a.router.navigate(['/products',item.id]);
       heartdiv.style.display = "flex";
+      heart.style.cursor = "pointer";
       img.src = item.imagePath;
       img.style.width = "150px";
       img.style.padding = "5px";
