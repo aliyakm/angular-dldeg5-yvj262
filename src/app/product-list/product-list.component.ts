@@ -39,12 +39,14 @@ export class ProductListComponent {
       let a = document.createElement("a");
       let img = document.createElement("img");
       let p = document.createElement("p");
+      let heart = document.createElement("h4");
       // let link = document.createElement('link');
       // link.rel = 'stylesheet';
       // link.href = 'product-list.component.css';
       a.title = item.name + " details";
       a.href = "products/" + item.id;
-      console.log(a.href);
+      // console.log(a.href);
+      heart.appendChild(document.createTextNode("♡ "+item.like));
       // a.href = "['/products', item.id]";
       // a.router.navigate(['/products',item.id]);
       img.src = item.imagePath;
@@ -63,6 +65,7 @@ export class ProductListComponent {
       itemdiv.appendChild(img);
       p.appendChild(document.createTextNode(item.description));
       itemdiv.appendChild(p);
+      itemdiv.appendChild(heart);
       mainlist.appendChild(itemdiv);
     }
     maindiv.appendChild(mainlist);
