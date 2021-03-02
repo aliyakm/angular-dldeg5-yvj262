@@ -17,7 +17,8 @@ export class ProductListComponent {
     window.alert("You will be notified when the product goes on sale");
   }
   showItems(s: string) {
-    let mainlist = document.getElementById("mainlist");
+    let maindiv = document.getElementById("mainlist");
+    let mainlist = document.createElement('div');
 
     // window.alert("Hello " + s);
     var arr = [];
@@ -28,6 +29,7 @@ export class ProductListComponent {
       }
     }
     for (let item of arr) {
+      let itemdiv = document.createElement('div');
       let itemname = document.createElement("h3");
       let a = document.createElement("a");
       let img = document.createElement("img");
@@ -41,14 +43,21 @@ export class ProductListComponent {
       img.style.width = "150px";
       img.style.padding = "5px";
       p.style.fontSize = '13px';
+      itemdiv.style.width = '160px';
+      itemdiv.style.height = '460px';
+      itemdiv.style.display = 'inline-table';
+      itemdiv.style.padding = '30px';
+      itemdiv.style.borderBottom = '1px solid silver';
 
       a.appendChild(document.createTextNode(item.name));
       itemname.appendChild(a);
-      mainlist.appendChild(itemname);
-      mainlist.appendChild(img);
+      itemdiv.appendChild(itemname);
+      itemdiv.appendChild(img);
       p.appendChild(document.createTextNode(item.description));
-      mainlist.appendChild(p);
+      itemdiv.appendChild(p);
+      mainlist.appendChild(itemdiv);
     }
+    maindiv.appendChild(mainlist);
     console.log(arr);
   }
 }
