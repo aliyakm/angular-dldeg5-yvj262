@@ -45,7 +45,7 @@ export class ProductListComponent {
       img.style.padding = "5px";
       p.style.fontSize = '13px';
       itemdiv.style.width = '160px';
-      itemdiv.style.height = '480px';
+      itemdiv.style.height = '535px';
       itemdiv.style.display = 'inline-table';
       itemdiv.style.padding = '30px';
       itemdiv.style.borderBottom = '1px solid silver';

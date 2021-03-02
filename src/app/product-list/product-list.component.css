@@ -6,6 +6,9 @@
 .categories li:hover {
   color: dodgerblue;
 }
+.categories li:active {
+  text-decoration: underline;
+}
 .categories ul {
   text-align: center;
 }
