@@ -30,17 +30,18 @@ export class ProductListComponent {
     for (let item of arr) {
       let itemname = document.createElement("h3");
       let a = document.createElement("a");
-      let img = document.createElement('img');
-      let p = document.createElement('p');
+      let img = document.createElement("img");
+      let p = document.createElement("p");
       // let link = document.createElement('link');
       // link.rel = 'stylesheet';
       // link.href = 'product-list.component.css';
 
-      a.title = 'details';
+      a.title = "details";
       img.src = item.imagePath;
-      img.style.width = '150px'; 
-      img.style.padding = '5px';
-      
+      img.style.width = "150px";
+      img.style.padding = "5px";
+      p.style.fontSize = '13px';
+
       a.appendChild(document.createTextNode(item.name));
       itemname.appendChild(a);
       mainlist.appendChild(itemname);
