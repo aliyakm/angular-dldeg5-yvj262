@@ -45,6 +45,8 @@ export class ProductListComponent {
       itemname.appendChild(a);
       mainlist.appendChild(itemname);
       mainlist.appendChild(img);
+      p.appendChild(document.createTextNode(item.description));
+      mainlist.appendChild(p);
     }
     console.log(arr);
   }
