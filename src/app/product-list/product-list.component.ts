@@ -65,6 +65,11 @@ export class ProductListComponent {
       itemdiv.style.padding = "30px";
       itemdiv.style.borderBottom = "1px solid silver";
 
+      heart.addEventListener('click', function(){
+        item.like += 1;
+        console.log(item.like);
+      });
+
       a.appendChild(document.createTextNode(item.name));
       itemname.appendChild(a);
       itemdiv.appendChild(itemname);
